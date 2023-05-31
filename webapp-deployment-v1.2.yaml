@@ -17,6 +17,5 @@ spec:
       containers:
         - name: webapp
           image: docker.io/dandycode/web-app:1.2
-          imagePullPolicy: Never
           ports:
             - containerPort: 5000
